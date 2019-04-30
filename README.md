@@ -42,50 +42,32 @@ The Dealer:
 Solving the 2x2 game, we can calculate such probabilities with the help of these **formulas**:
 
 - The matrix of our probabilities:
-$
-\quad\quad
-\begin{Vmatrix}
-a_{11} & a_{12} \\
-a_{21} & a_{22}
-\end{Vmatrix}
-$
 
+![equation](https://latex.codecogs.com/gif.latex?%5Cquad%5Cquad%20%5Cbegin%7BVmatrix%7D%20a_%7B11%7D%20%26%20a_%7B12%7D%20%5C%5C%20a_%7B21%7D%20%26%20a_%7B22%7D%20%5Cend%7BVmatrix%7D)
 
 - Reciever probabilities:
-$
-\quad\quad
-p_{1} = \frac{a_{22} - a_{21}}{a_{11} + a_{22} - a_{21} - a_{12}}
-\quad\quad
-p_{2} = \frac{a_{11} - a_{12}}{a_{11} + a_{22} - a_{21} - a_{12}}
-$
 
+![equation](https://latex.codecogs.com/gif.latex?%5Cquad%5Cquad%20p_%7B1%7D%20%3D%20%5Cfrac%7Ba_%7B22%7D%20-%20a_%7B21%7D%7D%7Ba_%7B11%7D%20&plus;%20a_%7B22%7D%20-%20a_%7B21%7D%20-%20a_%7B12%7D%7D%20%5Cquad%5Cquad%20p_%7B2%7D%20%3D%20%5Cfrac%7Ba_%7B11%7D%20-%20a_%7B12%7D%7D%7Ba_%7B11%7D%20&plus;%20a_%7B22%7D%20-%20a_%7B21%7D%20-%20a_%7B12%7D%7D)
 
 - Subcalc:
-$
-\quad\quad
-v = \frac{a_{11} * a_{22} - a_{21} * a_{12}}{a_{11} + a_{22} - a_{21} - a_{12}}
-$
 
+![equation](https://latex.codecogs.com/gif.latex?%5Cquad%5Cquad%20v%20%3D%20%5Cfrac%7Ba_%7B11%7D%20*%20a_%7B22%7D%20-%20a_%7B21%7D%20*%20a_%7B12%7D%7D%7Ba_%7B11%7D%20&plus;%20a_%7B22%7D%20-%20a_%7B21%7D%20-%20a_%7B12%7D%7D)
 
 - Dealer probabilities:
-$
-\quad\quad
-q_{1} = \frac{v - a_{12}}{a_{11} - a_{12}}
-\quad\quad
-q_{2} = \frac{a_{11} - v}{a_{11} - a_{12}}
-$
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cquad%5Cquad%20q_%7B1%7D%20%3D%20%5Cfrac%7Bv%20-%20a_%7B12%7D%7D%7Ba_%7B11%7D%20-%20a_%7B12%7D%7D%20%5Cquad%5Cquad%20q_%7B2%7D%20%3D%20%5Cfrac%7Ba_%7B11%7D%20-%20v%7D%7Ba_%7B11%7D%20-%20a_%7B12%7D%7D)
 
 **OPTIMAL STRATEGIES:**
-The Reciever:  0.625, 0.375
-The Dealer:    0.375, 0.625
+- The Reciever:  0.625, 0.375
+- The Dealer:    0.375, 0.625
 
 **THE PRICE OF THE GAME:**
-The value for the Reciever:  0.4875
-The value for the Dealer:    0.5125
+- The value for the Reciever:  0.4875
+- The value for the Dealer:    0.5125
 
 **PROBABILITIES OF SUCCESS:**
-The Reciever:  0.5125
-The Dealer:    0.4875
+- The Reciever:  0.5125
+- The Dealer:    0.4875
 
 ## Step 4. Conclusion
 
