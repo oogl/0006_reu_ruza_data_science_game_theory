@@ -71,6 +71,6 @@ Solving the 2x2 game, we can calculate such probabilities with the help of these
 
 ## Step 4. Conclusion
 
->Applying the minimax principle, we can determine that optimal strategy for the Dealer dictates mixing his two strategies in the ratio of 3:5. Reciever's optimal strategy is ($5/8, 3/8$). Probability of success for the Dealer is ~0.4875 and therefore 0.5125 for the Reciever, an expectation (for the Dealer) of -0.025. Although it may appear that the advantage lies with the Dealer since he wins the ties, the reverse is true owing to the greater ability of Reciever to influence the game's outcome.
+>Applying the minimax principle, we can determine that optimal strategy for the Dealer dictates mixing his two strategies in the ratio of 3:5. Reciever's optimal strategy is (5/8, 3/8). Probability of success for the Dealer is ~0.4875 and therefore 0.5125 for the Reciever, an expectation (for the Dealer) of -0.025. Although it may appear that the advantage lies with the Dealer since he wins the ties, the reverse is true owing to the greater ability of Reciever to influence the game's outcome.
 >
 > -- _Richard Epstein "The Theory of Gambling and Statistical Logic."_
