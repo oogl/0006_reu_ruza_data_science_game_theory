@@ -11,11 +11,11 @@
 >
 > -- _Melvin Dresher "Games of Strategy. Theory and Applications"_
 
-## Project Authors (code)
-- Algorithmical part . . . . . . . . . **Alex U** ([oogl](https://github.com/oogl/))
-- Graphical part . . . . . . . . . . . . .**Alex U** ([oogl](https://github.com/oogl/))
-- Graphical part . . . . . . . . . . . . .**draggen13** ([ProgStran](https://github.com/ProgStran))
-- Publication . . . . . . . . . . . . . . . **Alex U** ([oogl](https://github.com/oogl/))
+## Authors
+- Algorithmical part . . . . . . . . . **Alexey Uglanov** ([oogl](https://github.com/oogl/))
+- Graphical part . . . . . . . . . . . . .**Alexey Uglanov** ([oogl](https://github.com/oogl/))
+- Graphical part . . . . . . . . . . . . .**Radmir Kashapov** (ProgStran)
+- Publication . . . . . . . . . . . . . . . **Alexey Uglanov** ([oogl](https://github.com/oogl/))
 
 ## Step 1. The heatmap of the Dealer's win rate depending on the strategies
 Both players have the same strategies: to hold i-th (or j-th) card and above.
