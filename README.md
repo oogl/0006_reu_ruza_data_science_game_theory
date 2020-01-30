@@ -17,6 +17,13 @@
 - Graphical part . . . . . . . . . . . . .**Radmir Kashapov** (ProgStran)
 - Publication . . . . . . . . . . . . . . . **Alexey Uglanov** ([oogl](https://github.com/oogl/))
 
+## Step 0. Problem formulation and solution method
+The task is to determine which role (Dealer or Reciever) is more profitable to play this game.
+
+There are several ways to find the solution. For example, using Monte Carlo method for generating random sets of cards of three and getting statistics about the winners. But in this case there should be numerous experiments in order to get high precision. Another way is to generate all the possible combinations of three cards in the deck (22 100) and count error-free probabilities, which we'll do.
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cbinom%7B52%7D%7B3%7D%20%3D%2022100)
+
 ## Step 1. The heatmap of the Dealer's win rate depending on the strategies
 Both players have the same strategies: to hold i-th (or j-th) card and above.
 
